@@ -76,9 +76,9 @@ function calculateCO2() {
 <button class="accordion">Sources</button>
 
 <div class="panel">
-  <p>Emitted CO2: <a href="https://docs.microsoft.com/en-gb/learn/modules/sustainable-software-engineering-overview/8-network-efficiency" target="_blank">The Principles of Sustainable Software Engineering</a></p>
+  <p>Emitted CO2: <a href="https://docs.microsoft.com/en-gb/learn/modules/sustainable-software-engineering-overview/8-network-efficiency" target="_blank" rel="noopener noreferrer">The Principles of Sustainable Software Engineering</a></p>
 
-  <p>System boundaries: <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/jiec.12630" target="_blank">Electricity Intensity of Internet Data Transmission: Untangling the Estimates</a></p>
+  <p>System boundaries: <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/jiec.12630" target="_blank"  rel="noopener noreferrer">Electricity Intensity of Internet Data Transmission: Untangling the Estimates</a></p>
 </div>
 
 </div>
