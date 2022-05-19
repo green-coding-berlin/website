@@ -51,7 +51,7 @@ summary: "Our CO2 calculator"
 			<li>Rebound effect: <span>` +
 			reboundCO2 +
 			`kg</span></li>
-			<li><span style="text-decoration: underline">Carbon-` +
+			<li>Carbon-<span>` +
 			(reboundCO2 - webpCO2 > 0 ? "unfriendly" : "friendly") +
 			`</span> decision</li>
 			</ul>`;
@@ -108,7 +108,7 @@ summary: "Our CO2 calculator"
 <div id="filters" class="option-set clearfix foliomenu" style="padding-top: 20px;">
   <a id="show-webp" href="#" onclick="toggleTab(this.id); return false;" class="folio-btn"><div class="portfolio-btn">webP</div></a>
   <a id="show-gzip" href="#" onclick="toggleTab(this.id); return false;" class="folio-btn"><div class="portfolio-btn">gzip</div></a>
-  <a id="show-cloudflare" href="#" onclick="toggleTab(this.id); return false;" class="folio-btn"><div class="portfolio-btn">Cloudlfare</div></a>
+  <a id="show-cloudflare" href="#" onclick="toggleTab(this.id); return false;" class="folio-btn"><div class="portfolio-btn">Cloudflare</div></a>
 </div>
 <div class="calc" id="webp-calculator" style="padding: 20px;">
     <div class="title-two">webP Calculator</div>
