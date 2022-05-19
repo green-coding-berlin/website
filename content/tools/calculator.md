@@ -38,7 +38,7 @@ summary: "Our CO2 calculator"
 		const reboundCO2 = (rebound * mbTokWh * kWhToCO2).toFixed(2);
 
 		document.getElementById("answer").innerHTML =
-			`<span>Per year:</span>
+			`Per year:
 			<ul>
 				<li>Carbon emitted (before webP compression): <span>` +
 			websiteCO2 +
@@ -98,6 +98,11 @@ summary: "Our CO2 calculator"
         margin: 12px 0 20px;
     }
 
+	#answer span {
+		color: black;
+		font-weight: bold;
+	}
+
 </style>
 
 <div id="filters" class="option-set clearfix foliomenu" style="padding-top: 20px;">
@@ -154,8 +159,8 @@ summary: "Our CO2 calculator"
 
 <div class="title-two">Explanations / Sources</div>
 
-
 <a class="folio-btn accordion" style="width: 70%;"><div class="portfolio-btn" style="float:none;">webP</div></a>
+
 <div class="panel">
     <p>
         To estimate the kWh, we multiply the total megabytes by
@@ -170,8 +175,8 @@ summary: "Our CO2 calculator"
     </p>
 </div>
 
-
 <a class="folio-btn accordion" style="width: 70%;"><div class="portfolio-btn" style="float:none;">System boundaries</div></a>
+
 <div class="panel">
     <p>
         We represent the system boundary including the Internet Protocol
@@ -196,6 +201,7 @@ summary: "Our CO2 calculator"
 </div>
 
 <a class="folio-btn accordion" style="width: 70%;"><div class="portfolio-btn" style="float:none;">Embodied Carbon</div></a>
+
 <div class="panel">
     <p>
         The device you are using to access this website released some carbon
@@ -219,6 +225,7 @@ summary: "Our CO2 calculator"
 </div>
 
 <a class="folio-btn accordion" style="width: 70%;"><div class="portfolio-btn" style="float:none;">Rebound</div></a>
+
 <div class="panel">
     <p>
         According to caniuse.com, webP format is not supported by Internet
@@ -254,9 +261,11 @@ summary: "Our CO2 calculator"
             emitted per year as rebound of your app update.
         </li>
     </ul>
+
 </div>
 
 <a class="folio-btn accordion" style="width: 70%;"><div class="portfolio-btn" style="float:none;">Sources</div></a>
+
 <div class="panel">
     <p>Emitted CO2:</p>
     <ul>
@@ -274,7 +283,7 @@ summary: "Our CO2 calculator"
     <p>System boundaries:</p>
     <ul>
         <li>
-            <a
+            2. <a
                 href="https://onlinelibrary.wiley.com/doi/full/10.1111/jiec.12630"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -334,6 +343,7 @@ summary: "Our CO2 calculator"
             >
         </li>
     </ul>
+
 </div>
 
 <script>
